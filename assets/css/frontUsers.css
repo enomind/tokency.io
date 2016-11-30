@@ -1,0 +1,32 @@
+.question{
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  color: #415469;
+}
+
+.register-button-wrap {
+	line-height: 20px;
+}
+.register-button-wrap .item-wrap {
+	line-height: inherit;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.register-button-wrap .item-wrap:last {
+	margin-right: 0 !important;
+}
+
+.login-forgot-password {
+  font-size: 12px;
+  color: #9cafc3;
+}
+.login-remember-wrap {
+  font-weight: normal;
+  line-height: 15px;
+}
+.login-remember {
+  margin-top: 0 !important;
+}

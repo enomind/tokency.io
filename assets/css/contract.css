@@ -1,0 +1,136 @@
+.contract-body{
+    padding-top:60px;
+    padding-left:35px;
+    padding-bottom:35px;
+}
+@media all and (max-width: 768px) {
+  .contract-body{
+        padding-top:30px;
+        padding-left:15px;
+    }
+}
+.contract-info{
+    position:relative;
+    max-width: 1000px;
+}
+.contract-info img{
+    /*width: 100%;*/
+    display: block;
+    height:100px;
+}
+@media all and (min-width: 768px) {
+  .contract-info img {
+      width:262px;
+      height: auto
+  } 
+}
+.contract-info .media-left{
+    padding-right: 30px;
+}
+.contract-info .media-body{
+    text-align: left;    
+}
+.contract-info .media-date{
+    font-size: 16px !important;
+    color: #9cafc3;
+}
+.contract-info .media-heading{
+    font-size:22px !important;
+    color: #788ba0;
+}
+.contract-info .media-heading a, .contract-info .media-heading a:hover{
+    text-decoration: none;
+}
+.contract-info .media-author{
+    color: #9cafc3;
+    font-size: 16px !important;
+}
+.contract-info .media-author span{
+    color: #788ba0;
+}
+.contract-info .ion-android-star {
+  color: #38ba72;
+  font-size: 1.5em;
+}
+.contract-info .star {
+  padding-bottom: 20px;
+  display: inline-block
+}
+.contract-info .star span {
+  padding-right: 3px;
+}
+.contract-info .star span.star-uncheck {
+  color: #94989e;
+}
+.contract-info .view{
+    color:#788ba0;
+    font-size: 12px;
+    margin-left:15px;
+    display: inline-block;
+    line-height: 1
+}
+.contract-info .media-tool{
+    position: absolute;
+    top: 0;
+    right: 0;    
+}
+.contract-info .media-tool .button{
+    border: solid 1px #e2e2e2;
+    padding:10px 15px;   
+    color: #aaaaaa;
+    font-size: 20px;
+    margin-bottom: 10px;
+}   
+.contract-info .media-tool .button:hover{
+    border: solid 1px #38ba72;
+    color:#38ba72;
+    cursor: pointer
+}
+.contract-metadata{
+    margin-top:40px;
+}
+.contract-header{
+    color: #788ba0;
+    font-size: 18px !important;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.metadata-item{
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #9cafc3;
+}
+.metadata-item label{
+    width:140px;
+    color: #788ba0;
+}
+.contract-decription{
+    padding-top:30px;
+    border-top:3px solid #e1e1e1;
+    padding-left:30px;
+    margin-bottom: 200px;
+}
+@media all and (max-width: 768px) {
+  .contract-decription{
+        padding-top:30px;
+        padding-left:15px;
+    }
+}
+.contract-decription .content{
+    font-size: 14px;
+    color:#788ba0;
+    letter-spacing: 1.2px;
+    max-width: 900px;
+
+}
+.contract-decription p{
+     margin-top:10px;
+}
+.contract-decription .content ul li{
+    margin-top:10px;
+    font-size: 12px;
+}
+.white-paper{
+    background:#ffffff;
+    padding:13px;
+}

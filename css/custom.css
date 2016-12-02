@@ -1,0 +1,9 @@
+.carousel-indicators li{
+	border:none !important;
+	text-indent: inherit;
+    min-height: 50px;
+    display: block;
+}
+.carousel-indicators .active{
+	background: none;
+}

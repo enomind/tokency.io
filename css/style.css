@@ -1,0 +1,468 @@
+@import url(font-family: 'Noto Sans', sans-serif);
+@import url(font-family: 'Noto Sans', 'Noto Sans CJK JP', sans-serif;);
+/* ==========================================================================
+Typography
+========================================================================== */
+@font-face {
+    font-family: 'Noto Sans JP';
+    src: url('fonts/NotoSans.eot');
+}
+.font-jp {
+  font-family: 'Noto Sans', 'Noto Sans CJK JP', sans-serif !important;
+}
+body {
+  font-family: 'Noto Sans', 'Noto Sans CJK JP', sans-serif !important;
+}
+p {
+  font-size: 12px;
+margin: 0;}
+
+h1 {
+  font-size: 26px !important; }
+
+h2 {
+  font-size: 16px !important;}
+
+h3 {
+  font-size: 14px !important;
+  margin-bottom: 20px;}
+
+.hight-gray {
+  color: #9cafc3;
+}
+.gray {
+  color: #788ba0;
+}
+.green {
+  color: #38ba72;
+}
+.zero {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.zero2 {
+  padding: 0 !important;
+}
+
+/* ==========================================================================
+Login
+========================================================================== */
+.user-section {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.login-p {
+  padding-top: 8px;
+  float: right;
+}
+.login-p span {
+  font-size: 12px;
+  color: #9cafc3;
+}
+.login-p .avatar, .menu-btn  {
+  display: inline-block;
+}
+.login-p .avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #617283;
+  margin-right: 5px;
+}
+.login-p .ion-android-person {
+  font-size: 1.3em;
+  padding-left: 11px;
+  padding-top: 4px;
+  color: #fff;
+}
+
+.login-p .menu-btn {
+  width: 28px;
+  height: 28px;
+  background: #e3e3e3;
+  margin-left: 5px;
+}
+.login-p .ion-android-menu {
+  font-size: 1.3em;
+  padding-left: 8px;
+  color: #fff;
+}
+
+/* ==========================================================================
+Logo Section
+========================================================================== */
+.logo-section {
+  background: #1a1e21;
+}
+.logo-p {padding-top: 19px;float: left;padding-right: 20px;}
+.search-p {
+  float: left;
+  border-radius: 3px;
+  background-color: #394149;
+  border: solid 1px #30373d;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.search-p input {
+  width: 683px;
+  height: 52px;
+  border-radius: 3px;
+  background: none;
+  border: none;
+  float: left;
+  padding-left: 20px;
+}
+.search-p input:focus {box-shadow: 0;outline: 0;}
+.search-p textarea:focus, input:focus {
+    color: #fff;
+}
+
+.search-p input, select, textarea{
+    color: #fff;
+}
+.search-p .ion-android-search {
+  font-size: 1.8em;
+  color: #fff;
+  padding-top: 9px;
+  padding-left: 15px;
+  float: left;
+}
+.newtoken-btn {
+  float: right;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 3px;
+  background-color: #38ba72;
+  padding: 17px 40px;
+  margin-top: 10px;
+}
+/* ==========================================================================
+Banner Section
+========================================================================== */
+.banner-section {
+  width: 100%;
+  min-height: 412px;
+  background: url("../img/background.jpg") center center;
+  background-size: cover;
+}
+
+
+/* ==========================================================================
+Category Section
+========================================================================== */
+
+ .border-line {
+   border-left:1px solid #E9E9E9;
+ }
+.category-p {
+  padding-top: 10px;
+  padding-left: 55px;
+}
+.category-p h2 {
+  color: #9CAFC3;
+}
+.category-p ul li {
+  list-style: none;
+  font-size: 14px;
+  color: #788BA0;
+  padding-top: 20px;
+}
+
+/* ==========================================================================
+Tags Section
+========================================================================== */
+.tag-p {
+  padding-top: 10px;
+  padding-left: 55px;
+}
+.tag-p h2 {
+  color: #9CAFC3;
+}
+.tag-p ul {
+  padding: 0;
+  padding-top: 20px;
+}
+.tag-p ul li {
+  padding: 3px 5px;
+  font-size: 12px;
+  color: #788BA0;
+  display: inline-block;
+  border: 1px solid #788BA0;
+  margin-bottom: 3px;
+}
+.tag-p ul li:hover {
+  border: solid 1px #38ba72;
+  color: #38ba72;
+  cursor: pointer;
+}
+
+/* ==========================================================================
+Tokency Section
+========================================================================== */
+.tokency-p {
+  background-color: #f9f9f9;
+  padding-left: 30px;
+}
+.tokency-p h2 {
+  padding-top: 10px;
+  font-weight: bold;
+   color: #788BA0;
+   padding-bottom: 30px;
+}
+.block {
+  margin-right: 40px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.14);
+  position: relative;
+  margin-top: 10px;
+}
+.block .token-img {
+  padding: 0;
+  min-width: 175px;
+  float: left;
+}
+.block .token-img img{
+  max-width: 100%;
+  height: auto;
+}
+.block .token-info {
+  width: 100%;
+  height: auto;
+}
+.block .token-info .name-token{
+  color: #788ba0;
+  font-weight: bold;
+}
+.block .token-info .by-user {
+  padding-top: 5px;
+  color: #788ba0;
+}
+.block .token-info .by-user span {
+  color: #38ba72;
+}
+.block .token-info .ion-android-star {
+  color: #38ba72;
+  font-size: 1.5em;
+}
+.block .token-info .more-detail-token {
+  color: #788ba0;
+}
+.block .token-info .star {
+  padding-bottom: 20px;
+}
+.block .token-info .star span {
+  padding-right: 3px;
+}
+.block .token-info .star span.star-uncheck {
+  color: #94989e;
+}
+.block .token-info .token-content {
+  padding-top: 30px;
+}
+.token-btn .edit-btn, .share-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 28px;
+  height: 28px;
+  border: solid 1px #e2e2e2;
+  color: #aaa;
+  padding-left: 7px;
+  padding-top: 3px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.token-btn  .share-btn {
+  margin-right: 45px;
+}
+.token-btn .edit-btn:hover, .share-btn:hover {
+  border: solid 1px #38ba72;
+  color: #38ba72;
+}
+
+/* ==========================================================================
+pagination
+========================================================================== */
+.pagi-custom {
+  float: right;
+  margin-right: 40px;
+  
+}
+.pagi-custom ul {
+  border-radius: 3px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.14);
+  border: none;
+  padding: 5px;
+}
+.pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus {
+  background-color: #14b652;
+  color: #fff;
+}
+
+.pagi-custom span {
+  font-size: 10px;
+  color: #788ba0;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.pagination>li>a, .pagination>li>span {
+  border:none;
+}
+.pagination>li>a {
+  color: #788ba0;
+  font-size: 10px;
+}
+/* ==========================================================================
+Footer
+========================================================================== */
+.footer-section {
+  background: #1a1e21;
+}
+.footer-section .logo-p {
+  padding-bottom: 20px;
+}
+.footer-section h3 {
+  padding-top: 10px;
+  color: #fff;
+}
+/* ==========================================================================
+slide
+========================================================================== */
+.carousel-inner .token-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 3px;
+  box-shadow: 0 2px 12px 0 rgba(0, 2, 12, 0.09);
+}
+.carousel-example-generic {
+  position: relative;
+}
+.carousel-indicators {
+  position: absolute;
+      left: inherit;
+    right: 5%;
+    width: initial;
+    margin-left: 0;
+    text-align: left;
+    bottom: -50px;
+}
+.carousel-inner {
+  position: relative;
+    top: 55px;
+}
+.carousel-inner .date-token {
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 1.3px;
+  color: #72879d;
+}
+.carousel-inner .name-token {
+  font-weight: bold;
+  letter-spacing: 1.3px;
+  color: #72879d;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.carousel-inner .detail-btn {
+  border-radius: 3px;
+  background-color: #38ba72;
+  padding: 13px;
+  margin-top: 10px; 
+      max-width: 158px;
+    text-align: center;
+}
+.carousel-inner .detail-btn span {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 2.1px;
+  text-align: left;
+  color: #ffffff;
+}
+.carousel-inner .by-user {
+  padding-top: 5px;
+  color: #788ba0;
+  padding-bottom: 5px;
+}
+.carousel-inner .by-user span {
+  color: #38ba72;
+  text-align: center;
+}
+.carousel-inner .ion-android-star {
+  color: #38ba72;
+  font-size: 1.5em;
+}
+.carousel-inner .star span {
+    padding-right: 3px;
+}
+#carousel-example-generic ol li img:hover {
+  border: 1px solid #38ba72;
+  border-radius: 3px;
+}
+
+/* ==========================================================================
+COMING SOON PAGE
+========================================================================== */
+
+.coming-content {
+  padding-top: 120px;
+  text-align: center;
+}
+.coming-content h1 {
+  font-size: 40px !important;
+  color: #415469;
+}
+.coming-content h1 span {
+  color: #38ba72;
+}
+.coming-content p {
+  font-size: 20px;
+  color: #38ba72;
+}
+.coming-content p span {
+  color: #415469;
+}
+.coming-content input {
+  width: 50%;
+  border-radius: 3px;
+  border-color: #CDD6DE;
+  box-shadow: none;
+  padding: 21px 15px;
+}
+.coming-content form {
+  padding-top: 20px;
+}
+.coming-content img {
+  width: 100%;
+  height: 100%;
+}
+.notify {
+  border-radius: 3px;
+  background: #38ba72;
+  padding: 13px 23px;
+  color: #fff;
+  border: none;
+}
+.mail-noti, .notify {
+  display: inline-block;
+}
+.coming-page .co-text {
+  text-align: center;
+}
+.coming-page .logo-p {
+  padding-bottom: 19px;
+  text-align: center;
+  float: none !important;
+}
+.coming-page .logo-b, .copy-right {
+  display: inline-block;
+}
+.coming-page .logo-b {
+  padding-right: 20px;
+}
